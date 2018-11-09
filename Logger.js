@@ -12,22 +12,22 @@ class Logger {
     }
 
     error(...args) {
-        args.unshift(getNow() + '/' + this.id + ':');
+        args.unshift(this.id + ' ' + getNow() + ':');
         console.error(chalk.red(args.join(' ')));
     }
 
     warn(...args) {
-        args.unshift(getNow() + '/' + this.id + ':');
+        args.unshift(this.id + ' ' + getNow() + ':');
         console.warn(chalk.yellow(args.join(' ')));
     }
 
     log(...args) {
-        args.unshift(getNow() + '/' + this.id + ':');
+        args.unshift(this.id + ' ' + getNow() + ':');
         console.log(chalk.green(args.join(' ')));
     }
 
     verbose(...args) {
-        args.unshift(getNow() + '/' + this.id + ':');
+        args.unshift(this.id + ' ' + getNow() + ':');
         console.log.apply(console, args);
     }
 }
