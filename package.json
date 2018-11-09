@@ -1,7 +1,7 @@
 {
   "name": "beebee",
   "version": "0.0.1",
-  "description": "",
+  "description": "A logger with shortened uuid and time stamp",
   "main": "Logger.js",
   "scripts": {
     "postversion": "git push && git push --tags"

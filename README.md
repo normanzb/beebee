@@ -1,0 +1,1 @@
+A logger with shortened uuid and time stamp
