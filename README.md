@@ -1,7 +1,7 @@
 # This is logger that logs with...
 
 * shortened uuid: Each instance will logs with its own uuid as prefix.
-* Time stamp: er... time stamp is a time stamp
+* time stamp: er... time stamp is a time stamp
 * and with some colours
 
 ```javascript
