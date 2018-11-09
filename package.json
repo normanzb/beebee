@@ -1,6 +1,6 @@
 {
   "name": "beebee",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A logger with shortened uuid and time stamp",
   "main": "Logger.js",
   "scripts": {
