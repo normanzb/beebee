@@ -15,9 +15,9 @@ bbWithAName.log('I don\'t mean to be a pest.');
 bbWithRandomId.warn('but you are warned this will be annoy.');
 // kPQo3XVbU2qqJsK8bmxtjh 2018-11-09T16:03:31.472Z: but you are warned I will be annoy.
 
-bbWithRandomId.verbose('and I will bug you again');
-// kPQo3XVbU2qqJsK8bmxtjh 2018-11-09T16:15:31.472Z: and I will bug you again
+bbWithRandomId.verbose('and I will bug you again when...');
+// kPQo3XVbU2qqJsK8bmxtjh 2018-11-09T16:15:31.472Z: and I will bug you again when...
 
-bbWithRandomId.error('when there is an error happens');
-// kPQo3XVbU2qqJsK8bmxtjh 2018-11-09T16:17:31.472Z: when there is an error happen
+bbWithRandomId.error('there is an error happens');
+// kPQo3XVbU2qqJsK8bmxtjh 2018-11-09T16:17:31.472Z: there is an error happen
 ```
